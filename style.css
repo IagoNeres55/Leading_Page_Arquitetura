@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#menu_superior {
+    background-color: #303030;
+    width: 100%;
+    height: 475px;
+}
+
+#texto_superior {
+    margin-left: 75px;
+    color: white;
+    padding-top: 210px;
+}
+
+#titulo {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+#subtitulo {
+    font-size: 20px;
+}
+
+#informacoes {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    text-align: start;
+    background-color: #f9f9f9;
+    height: 229px;
+    padding-left: 200px;
+    align-items: center;
+}
+
+.info01 {
+    font-size: 35px;
+    text-align: start;
+}
+
+.info02 {
+    font-size: 18px;
+    font-weight: bold
+}
+
+#info_img {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+#texto {
+    padding-top: 20%;
+    background-color: #ffffff;
+    height: 440px;
+    font-size: 100%;
+    margin-left: 10%;
+    width: 910px;
+}
+
+#tituloTexto {
+    font-weight: 500;
+    margin-bottom: 50px;
+    font-size: 35px;
+
+}
+
+#texto02 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+img {
+    margin-top: 45px;
+    border-radius: 30px;
+    width: 410px;
+    height: 490px;
+}
+
+#img01 {
+    display: flex;
+}
+
+#container {
+    display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+}
+
+#formulario {
+    background-color: #303030;
+    height: 520px;
+    text-align: center;
+}
+
+#texte_formulario {
+    padding-top: 75px;
+    padding-bottom: 65px;
+    text-align: center;
+    color: white;
+}
+
+#botoes {
+    align-items: center;
+}
+
+input {
+    height: 60px;
+    color: #000000;
+    width: 475px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 0px;
+}
+
+button {
+    background-color: #C07212;
+    color: white;
+    height: 65px;
+    width: 275px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    transform: translateY(4px);
+    box-shadow: 0px 15px 20px #0000003a;
+}
