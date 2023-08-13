@@ -1,4 +1,4 @@
-# Desafio 1 - Resolulção
+# Desafio 1 - Resolução
 
 Leading Page Desenvilvida utilizando HTML+CSS e JS
 
